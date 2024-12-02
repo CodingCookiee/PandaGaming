@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const App = () => {
   return (
-    <main className='App'>
-      App
+    <main className="App font-circular-web ">
+      <h1>Welcome to Panda Gaming</h1>
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
