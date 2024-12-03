@@ -6,6 +6,7 @@ import Features from "./components/features/Features";
 import Story from "./components/story/Story";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Story />
       <Contact />
       <Footer />
+      <SpeedInsights />
     </main>
   );
 };
