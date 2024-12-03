@@ -24,17 +24,17 @@
 
 ## <a name="features">🔋 Features</a>
 
-**Scroll-Based Animations**: Dynamic animations triggered by scrolling for a more engaging user experience.
+👉 **Scroll-Based Animations**: Dynamic animations triggered by scrolling for a more engaging user experience.
 
-**Clip Path Shaped Animations**: Unique geometric transitions using CSS clip-paths to create visually stunning effects.
+👉 **Clip Path Shaped Animations**: Unique geometric transitions using CSS clip-paths to create visually stunning effects.
 
-**3D Hover Effects**: Interactive 3D transformations that respond to user interactions for a modern feel.
+👉 **3D Hover Effects**: Interactive 3D transformations that respond to user interactions for a modern feel.
 
-**Video Transitions**: Seamlessly integrated video elements to enhance storytelling and flow.
+👉 **Video Transitions**: Seamlessly integrated video elements to enhance storytelling and flow.
 
-**Smooth UI/UX**: Polished interfaces with buttery-smooth interactions for an intuitive user journey.
+👉 **Smooth UI/UX**: Polished interfaces with buttery-smooth interactions for an intuitive user journey.
 
-**Completely Responsive**: Flawless adaptation across all devices, ensuring a consistent experience.
+👉 **Completely Responsive**: Flawless adaptation across all devices, ensuring a consistent experience.
    
 ## <a name="links">🔗 Assets</a>
 
