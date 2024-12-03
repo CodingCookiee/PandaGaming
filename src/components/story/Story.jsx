@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useRef } from "react";
 import Button from "../button/Button";
-import AnimatedTitle from "../AnimatedTitle/AnimatedTitle";
+import AnimatedTitle from "../animatedTitle/AnimatedTitle";
 
 const Story = () => {
   const frmaeRef = useRef(null);

@@ -98,7 +98,12 @@ const Navbar = () => {
         <nav className="flex items-center justify-between size-full p-4">
           {/* Logo and Product Button */}
           <div className="flex items-center gap-7">
-            <img src="/gamer.png" alt="logo" className=" w-10" />
+            <img
+              src="/gamer.png"
+              alt="logo"
+              className=" w-10 cursor-pointer"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            />
             <Button
               title="Products"
               id="product-button"

@@ -1,5 +1,6 @@
 import AnimatedTitle from "../animatedTitle/AnimatedTitle";
 import Button from "../button/Button";
+import { TbSquareRoundedArrowUpFilled } from "react-icons/tb";
 
 const ImageClipBox = ({ src, clipClass }) => (
   <div className={clipClass}>
@@ -46,6 +47,10 @@ const Contact = () => {
           <Button title="contact us" containerClass="mt-10 cursor-pointer" />
         </div>
       </div>
+      <TbSquareRoundedArrowUpFilled
+        className="absolute bottom-16 right-8 z-50 h-12 w-12 cursor-pointer text-black transition-all duration-700 ease-in-out hover:rotate-180"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      />
     </div>
   );
 };
