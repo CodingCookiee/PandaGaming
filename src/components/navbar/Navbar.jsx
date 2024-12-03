@@ -65,6 +65,30 @@ const Navbar = () => {
     );
   }, [isNavVisible]);
 
+  // Ensure audio starts playing on user interaction
+  useEffect(() => {
+    const audioElement = audioElementRef.current;
+    const playAudio = () => {
+      audioElement.play().catch((error) => {
+        console.error("Audio playback failed:", error);
+      });
+    };
+
+    const handleUserInteraction = () => {
+      playAudio();
+      document.removeEventListener("click", handleUserInteraction);
+      document.removeEventListener("keydown", handleUserInteraction);
+    };
+
+    document.addEventListener("click", handleUserInteraction);
+    document.addEventListener("keydown", handleUserInteraction);
+
+    return () => {
+      document.removeEventListener("click", handleUserInteraction);
+      document.removeEventListener("keydown", handleUserInteraction);
+    };
+  }, []);
+
   return (
     <div
       ref={navContainerRef}
