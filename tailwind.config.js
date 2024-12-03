@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         zentry: ["zentry", "sans-serif"],
-        genral: ["general", "sans-serif"],
+        general: ["general", "sans-serif"],
         "circular-web": ["circular-web", "sans-serif"],
         "robert-medium": ["robert-medium", "sans-serif"],
         "robert-regular": ["robert-medium", "sans-serif"],
