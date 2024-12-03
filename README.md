@@ -5,7 +5,7 @@
 1. 🔗 [LiveDemo](#livedemo)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
-4. 🔗 [Assets](#links)
+4. 🔗 [Acknowledgement](#akg)
 
 
 
@@ -36,8 +36,6 @@
 
 👉 **Completely Responsive**: Flawless adaptation across all devices, ensuring a consistent experience.
    
-## <a name="links">🔗 Assets</a>
+## <a name="akg">🔗 Acknowledgement</a>
 
-Assets used in the project can be found [here](https://drive.google.com/file/d/12hCVnanOAUmM1vzz2dTWZ_uEFGG8xDcT/view?usp=sharing)
-
-> This project uses some assets and fonts from **[Zentry](https://zentry.com/)** purely for educational and demonstration purposes. All rights to these assets and fonts belong to their respective owners. 
+> This project is inspired by **[Zentry](https://zentry.com/)**. It uses some assets and fonts from **[Zentry](https://zentry.com/)** purely for educational and demonstration purposes. All rights to these assets and fonts belong to their respective owners. 
